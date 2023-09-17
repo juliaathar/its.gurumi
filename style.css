@@ -36,6 +36,24 @@
     width: 0;
  }
 
+ /* fontes */
+
+ h1 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+
+    color: #FFFFFF;
+ }
+
+ h2 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+
+    color: #FFFFFF;
+ }
+
  body {
     background-color: #D5BFDE;
  }
@@ -205,4 +223,44 @@ h2#h2Inicio {
     text-decoration: none;
 
     color: #FFFFFF;
+}
+
+/* section about */
+
+.sctnAbout {
+    width: 100%;
+    height: 964px;
+
+    background-color: #3A1847;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxAbt {
+    width: 1151px;
+    height: 779px;
+    border-radius: 50px;
+
+    background-color: #AF78C4;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.txtsAbt {
+    width: 1049px;
+    height: 544px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
 }
