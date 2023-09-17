@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./assets/png pfp itsgurumi.png">
+  <title>It's Gurumi</title>
+</head>
+
+<body>
+  <header>
+    <div class="header layout-grid">
+      <div id="logoHdr">
+        <img id="logoImg" src="./assets/png pfp itsgurumi.png" alt="Logo It's Gurumi">
+        <h1 id="itsgrm">its.gurumi</h1>
+      </div>
+      <div class="navHdr">
+        <nav>
+          <a href="">Ínicio</a>
+          <a href="">Sobre</a>
+          <a href="">Avaliações</a>
+          <a href="">Contato</a>
+        </nav>
+      </div>
+      <div class="mediasHdr">
+        <a href="https://www.elo7.com.br/raphaela" target="_blank">
+          <img id="shop" src="./imgs/shopping-cart.png" alt="Elo7">
+        </a>
+        <a href="https://www.instagram.com/its.gurumi/" target="_blank">
+          <img id="ig" src="./imgs/Instagram.png" alt="">
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=5511992000297&text&type=phone_number&app_absent=0"
+          target="_blank">
+          <img id="wpp" src="./imgs/Whatsapp.png" alt="">
+        </a>
+      </div>
+    </div>
+
+    <!-- menu lateral no mobile -->
+
+    <div class="header-left layout-grid">
+
+      <div class="icons align-center">
+
+        <img onclick="mostrarMenu()" id="menu-burguer" src="./imgs/menu-button-of-three-horizontal-lines.png" alt="">
+        <img id="logoImg" src="./assets/png pfp itsgurumi.png" alt="Logo It's Gurumi">
+        <h1 id="itsgrm">its.gurumi</h1>
+
+      </div>
+
+      <div class="navmenud">
+        <nav class="menu" id="menu">
+          <a href="">Início</a>
+          <a href="">Sobre</a>
+          <a href="">Avaliações</a>
+          <a href="">Contato</a>
+
+          <div class="mediasHdr">
+            <a href="">
+              <img id="shop" src="./imgs/shopping-cart.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/its.gurumi/">
+              <img id="ig" src="./imgs/Instagram.png" alt="">
+            </a>
+            <a href="">
+              <img id="wpp" src="./imgs/Whatsapp.png" alt="">
+            </a>
+          </div>
+
+        </nav>
+      </div>
+  </header>
+
+  <section class="sctnInicio">
+    <div class="inicio layout-grid">
+      <div class="txtInicio">
+        <h1 id="h1Inicio">Bem-vindo ao It’s Gurumi</h1>
+        <h2 id="h2Inicio">Onde os sonhos se transformam em fios
+          e cada amigurumi é uma história encantadora esperando para ser contada!</h2>
+      </div>
+      <div class="imgBtn">
+        <img id="sheep" src="./imgs/sheep-desk.png" alt="">
+        <div id="btn">
+          <a href="">Faça seu orçamento</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+
+  </footer>
+
+  <script>
+    function mostrarMenu() {
+      document.getElementById("menu").classList.toggle("mostrar-menu");
+    }
+  </script>
+
+</body>
+
+</html>

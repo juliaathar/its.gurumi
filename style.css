@@ -1,0 +1,208 @@
+/* importação de fontes */
+
+@font-face {
+    font-family: Pacifico;
+    src: url(./assets/fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+/* reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* layout grid / formatacao geral */
+
+ .layout-grid {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+ }
+ 
+ /* tirando scrollbar */
+ ::-webkit-scrollbar {
+    width: 0;
+ }
+
+ body {
+    background-color: #D5BFDE;
+ }
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 60px;
+    
+    background-color: #885D99;
+}
+
+header .header-left {
+    display: none;
+}
+
+header .header {
+    width: 1200px;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+} 
+
+div #logoHdr {
+    width: 176px;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div img#logoImg {
+    width: 39px;
+    height: 50px;
+}
+
+h1#itsgrm {
+    font-family: Pacifico;
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+div .navHdr nav {
+    width: 296px;
+    height: 21px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div .navHdr nav a {
+    font-family: Poppins;
+    font-size: 14px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+
+    transition: background-color 0.5s, backdrop-filter 0.5s;
+}
+
+nav>a:hover {
+    background-color: #3A1847;
+ }
+
+ div .mediasHdr{
+    width: 157px;
+    height: 28px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ div .mediasHdr a #shop,
+ div .mediasHdr a #ig,
+ div .mediasHdr a #wpp{
+    width: 22px;
+    height: 22px;
+ }
+ 
+ /* section ínicio */
+ 
+ .sctnInicio {
+    width: 100%;
+    height: 975px;
+    background-image: url(./imgs/background-desk.png);
+ }
+
+ .inicio{
+    width: 931px;
+    /* height: 745px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .txtInicio {
+    width: 931px;
+    height: 142px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+h1#h1Inicio {
+    font-family: Montserrat;
+    font-size: 30px;
+
+    text-align: center;
+
+    color: #3A1847;
+}
+
+h2#h2Inicio {
+    font-family: Montserrat;
+    font-size: 24px;
+
+    text-align: center;
+
+    color: #3A1847;
+}
+
+.imgBtn {
+    width: 493px;
+    height: 558px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgBtn img#sheep {
+    width: 493px;
+    height: 393px;
+
+    filter: drop-shadow(9px 18px 5px rgba(0, 0, 0, 0.3));
+}
+
+.imgBtn #btn {
+    width: 300px;
+    height: 75px;
+
+    background-color: #3A1847;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBtn #btn a{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
