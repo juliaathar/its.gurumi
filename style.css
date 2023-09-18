@@ -25,45 +25,45 @@
 
 /* layout grid / formatacao geral */
 
- .layout-grid {
+.layout-grid {
     width: 90%;
     height: 100%;
     margin: 0 auto;
- }
- 
- /* tirando scrollbar */
- ::-webkit-scrollbar {
+}
+
+/* tirando scrollbar */
+::-webkit-scrollbar {
     width: 0;
- }
+}
 
- /* fontes */
+/* fontes */
 
- h1 {
+h1 {
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 700;
 
     color: #FFFFFF;
- }
+}
 
- h2 {
+h2 {
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
 
     color: #FFFFFF;
- }
+}
 
- body {
+body {
     background-color: #D5BFDE;
- }
+}
 
 /* HEADER */
 
 header {
     width: 100%;
     height: 60px;
-    
+
     background-color: #885D99;
 }
 
@@ -79,7 +79,7 @@ header .header {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-} 
+}
 
 div #logoHdr {
     width: 176px;
@@ -121,33 +121,33 @@ div .navHdr nav a {
 
 nav>a:hover {
     background-color: #3A1847;
- }
+}
 
- div .mediasHdr{
+div .mediasHdr {
     width: 157px;
     height: 28px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
+}
 
- div .mediasHdr a #shop,
- div .mediasHdr a #ig,
- div .mediasHdr a #wpp{
+div .mediasHdr a #shop,
+div .mediasHdr a #ig,
+div .mediasHdr a #wpp {
     width: 22px;
     height: 22px;
- }
- 
- /* section ínicio */
- 
- .sctnInicio {
+}
+
+/* section ínicio */
+
+.sctnInicio {
     width: 100%;
     height: 975px;
     background-image: url(./imgs/background-desk.png);
- }
+}
 
- .inicio{
+.inicio {
     width: 931px;
     /* height: 745px; */
 
@@ -155,9 +155,9 @@ nav>a:hover {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
- }
+}
 
- .txtInicio {
+.txtInicio {
     width: 931px;
     height: 142px;
 
@@ -165,7 +165,7 @@ nav>a:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
- }
+}
 
 h1#h1Inicio {
     font-family: Montserrat;
@@ -188,7 +188,7 @@ h2#h2Inicio {
 .imgBtn {
     width: 493px;
     height: 558px;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -214,7 +214,7 @@ h2#h2Inicio {
     align-items: center;
 }
 
-.imgBtn #btn a{
+.imgBtn #btn a {
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 600;
@@ -316,3 +316,65 @@ article#clients {
     text-transform: uppercase;
     color: #3A1847;
 }
+
+/* section contact */
+
+.stcnContact {
+    width: 100%;
+    height: 730px;
+
+    background-color: #AF78C4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.txtCtt {
+    width: 798px;
+    height: 74px;
+}
+
+#h1Ctt {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center
+}
+
+.articlesCtt {
+    width: 1024px;
+    height: 392px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article#boxCtt {
+    width: 320px;
+    height: 392px;
+
+    border-radius: 50px;
+    background-color: #3A1847;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img#shopctt {
+    width: 150px;
+    height: 150px;
+}
+
+h1#Ctt {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #D659FF;
+}
+
+
+D659FF
