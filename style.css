@@ -271,5 +271,48 @@ h2#h2Inicio {
     width: 100%;
     height: 964px;
 
-    background-color: #AF78C4;
+    background-color: #D5BFDE;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evaluation {
+    width: 1194px;
+    height: 710px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article#clients {
+    width: 1192px;
+    height: 135px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txtUser {
+    width: 1023px;
+    height: 115px;
+}
+
+#h1User {
+    font-size: 24px;
+
+    color: #3A1847;
+}
+
+#h2User {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #3A1847;
 }
