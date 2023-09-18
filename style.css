@@ -376,5 +376,35 @@ h1#Ctt {
     color: #D659FF;
 }
 
+/* foooter */
 
-D659FF
+footer {
+    height: 224px;
+    background-color: #885D99;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .footer {
+    width: 358px;
+    height: 123px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img#sheepLogo {
+    width: 97px;
+    height: 123px;
+}
+
+h1#itsgrmFooter {
+    font-family: Pacifico;
+    font-size: 60px;
+    font-weight: 400;
+}
