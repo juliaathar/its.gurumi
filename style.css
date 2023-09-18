@@ -508,5 +508,62 @@ h1#itsgrmFooter {
         justify-content: center;
         align-items: center;
         gap: 50px;
-     }     
+        margin-left: 60px;
+     }  
+     
+     /* section inicio */
+
+     .sctnInicio{
+        width: 100%;
+        height: 508px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+     }
+
+     .inicio {
+        width: 276px;
+        height: 402px;
+     }
+
+     .txtInicio {
+        width: 276px;
+        height: 89px;
+     }
+
+     h1#h1Inicio {
+        font-size: 18px;
+     }
+
+     h2#h2Inicio {
+        font-size: 12px;
+     }
+
+     .imgBtn {
+        width: 200px;
+        height: 271px;
+     }
+
+     .imgBtn img#sheep {
+        width: 200px;
+        height: 160px;
+     }
+
+     .imgBtn #btn {
+        width: 171px;
+        height: 43px;
+     }
+
+     .imgBtn #btn a {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+    
+        text-decoration: none;
+    
+        color: #FFFFFF;
+    }
 }
