@@ -149,7 +149,6 @@ div .mediasHdr a #wpp {
 
 .inicio {
     width: 931px;
-    /* height: 745px; */
 
     display: flex;
     flex-direction: column;
@@ -421,6 +420,8 @@ h1#itsgrmFooter {
     
     header .header-left {
         display: block;
+
+        width: 320px;
     } 
 
     header .header-top {
@@ -431,6 +432,11 @@ h1#itsgrmFooter {
         display: flex;
         justify-content: space-between;
         align-items: center;
+     }
+
+     .header-left #logoHdr {
+        width: 118px;
+        height: 38px;
      }
 
      img#menu-burguer {
